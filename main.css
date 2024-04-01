@@ -177,14 +177,14 @@ ul {
   border-radius: var(--borderRadius);
 }
 
-.alert-danger {
+.alert-danger,
+#computerScoreDisplay {
   color: var(--red-dark);
-  background: var(--red-light);
 }
 
-.alert-success {
+.alert-success,
+#playerScoreDisplay {
   color: var(--green-dark);
-  background: var(--green-light);
 }
 
 /* Form */
@@ -306,9 +306,14 @@ ul {
 #playerDisplay,
 #computerDisplay {
   font-size: 2.5rem;
+  font-weight: bold;
 }
 
 #resultDisplay {
   font-size: 5rem;
   margin: 30px 0;
+}
+
+.scoreDisplay {
+  font-size: 2rem;
 }
